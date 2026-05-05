@@ -66,7 +66,7 @@ ng-ecommerce-sales-analysis/
 │   ├── states_by_revenue.csv
 │   ├── product_category_state.csv
 │   ├── customer_segment_comparison.csv
-│   └── dashboard_screenshot.png      # Excel dashboard
+│   └── dashboard_screenshot.png      # Tableau dashboard
 │
 ├── narrative/
 │   └── analysis_narrative.txt        # Written insights summary
@@ -84,13 +84,13 @@ ng-ecommerce-sales-analysis/
    \copy ng_sales FROM 'data/ng_sales.csv' DELIMITER ',' CSV HEADER;
    ```
 3. Run queries in the `/sql` folder in order
-4. Export results as CSVs and open the Excel dashboard template
+4. Export results as CSVs and open the Tableau dashboard template
 
 ---
 
 ## Author
 
 Built as part of an ongoing Data Analysis learning journey.
-Focus areas: SQL (PostgreSQL), Excel dashboards, AI-assisted workflows, and real-world project building.
+Focus areas: SQL (PostgreSQL), Tableau dashboards, AI-assisted workflows, and real-world project building.
 
 > *"Don't just run queries — answer business questions."*
